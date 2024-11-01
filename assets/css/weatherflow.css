@@ -1,0 +1,101 @@
+.weatherflow-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.weatherflow-slide {
+    
+    background-color: var(--weatherflow_card_colour);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+
+
+.weatherflow-wrapper {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    .weatherflow-wrapper {
+        width: 80%;
+    }
+}
+
+.weatherflow-weather {
+    border-radius: 5px;
+    background-color: var(--weatherflow_background_colour);
+    color: var(--weatherflow_card_text_colour);
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.weatherflow-heading {
+    color: var(--weatherflow_background_text_colour) ;
+    font-size: 2rem;
+}
+
+.weatherflow-location {
+    color: var(--weatherflow_background_text_colour) ;
+}
+
+.owl-carousel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.weatherflow-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.weatherflow-icon  {
+    width: 6rem !important;
+    height: auto;
+}
+
+.weatherflow-current-conditions {
+    margin-right: 10px;
+    width: 25%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (max-width: 770px) {
+    .weatherflow-flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .weatherflow-current-conditions {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.weatherflow-info {
+    padding: 15px;
+    height: 100%;
+}
+
+.weatherflow-info p strong {
+    font-size:  2rem;
+}
+
+
+.weatherflow-error {
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(255, 88, 88);
+    border: 1px solid red;
+    margin: 20px auto;
+}
